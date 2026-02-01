@@ -9,38 +9,43 @@
 <style>
 header {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 40px;
     flex-wrap: wrap;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .header-text {
-    max-width: 600px;
-}
-
-.subtitle {
-    margin-top: 6px;
-    font-size: 1rem;
-    color: #444;
+    max-width: 650px;
 }
 
 .profile-img {
     width: 180px;
-    max-width: 100%;
-    height: auto;
     border-radius: 8px;
     border: 1px solid #ccc;
 }
 
-.dropdown-nav {
-    margin-top: 15px;
-    display: inline-block;
+section {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
+
+section h2 {
+    border-bottom: 2px solid #e68a00;
+    padding-bottom: 5px;
+}
+
+ul li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 </style>
-
 </head>
 
 <body>
@@ -48,7 +53,6 @@ header {
 <header>
     <div class="header-text">
         <h1>Dr. Rohitkumar R. Upadhyay</h1>
-
         <p class="subtitle">
             Cryptography Analyst, QNu Labs, Bangalore<br>
             Post-Quantum Cryptography · FHE · MPC · Zero-Knowledge Proofs
@@ -57,47 +61,123 @@ header {
         <nav class="dropdown-nav">
             <button class="dropbtn">Menu ▾</button>
             <div class="dropdown-content">
-                <a href="index.html">Home</a>
-                <a href="publications.html">Publications</a>
-                <a href="talks.html">Talks</a>
-                <a href="workshops.html">Workshops</a>
-                <a href="awards.html">Awards</a>
-                <a href="education.html">Education</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#publications">Publications</a>
+                <a href="#talks">Talks</a>
+                <a href="#workshops">Workshops</a>
+                <a href="#awards">Awards</a>
             </div>
         </nav>
     </div>
 
-    <div>
-        <img src="profile.png"
-             alt="Dr. Rohitkumar R. Upadhyay"
-             class="profile-img">
-    </div>
+    <img src="profile.png" alt="Dr. Rohitkumar R. Upadhyay" class="profile-img">
 </header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a Cryptography Analyst at QNu Labs, Bangalore, working on
-        Post-Quantum Cryptography, Fully Homomorphic Encryption,
-        Secure Multi-Party Computation, and Zero-Knowledge Proofs,
-        with applications to secure outsourced computation and
-        privacy-preserving healthcare analytics.
-    </p>
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am a Cryptography Analyst at QNu Labs, Bangalore, working on
+Post-Quantum Cryptography, Fully Homomorphic Encryption,
+Secure Multi-Party Computation, and Zero-Knowledge Proofs,
+with applications to secure outsourced computation and
+privacy-preserving healthcare analytics.
+</p>
 </section>
 
-<section>
-    <h2>Research Interests</h2>
-    <ul>
-        <li>Post-Quantum Cryptography (PQC)</li>
-        <li>Fully Homomorphic Encryption (FHE)</li>
-        <li>Secure Multi-Party Computation (MPC)</li>
-        <li>Zero-Knowledge Proofs (SNARKs, VOLE-itH)</li>
-        <li>Privacy-Preserving Machine Learning</li>
-    </ul>
+<!-- EDUCATION -->
+<section id="education">
+<h2>Education</h2>
+<ul>
+<li>
+<strong>Ph.D. in Mathematics</strong> (Jan 2022 – Jun 2025)<br>
+Motilal Nehru National Institute of Technology Allahabad, India<br>
+CGPA: 9.5 / 10<br>
+Thesis: <em>A Study of Secure Computation using Post-Quantum Cryptography</em><br>
+Advisor: Dr. Sahadeo Padhye
+</li>
+
+<li>
+<strong>M.Sc. in Mathematics</strong> (2017 – 2019)<br>
+University of Mumbai, India — CGPA: 7.01 / 10
+</li>
+
+<li>
+<strong>B.Sc. in Mathematics</strong> (2014 – 2017)<br>
+NES Ratnam Degree College, Mumbai — CGPA: 6.62 / 7
+</li>
+</ul>
 </section>
 
-<footer>
-    <p>© Dr. Rohitkumar R. Upadhyay</p>
+<!-- PUBLICATIONS -->
+<section id="publications">
+<h2>Research Publications</h2>
+<ul>
+<li>
+<strong>Upadhyay, R.R.</strong>, Padhye, S., Sahu, R.A., Saraswat, V. (2025).<br>
+<em>Towards Privacy and Integrity: SNARK-Driven Verifiable FHE for Outsourced Computation.</em><br>
+ACNS Workshops 2025, LNCS 15654. Springer.
+</li>
+
+<li>
+<strong>Upadhyay, R.R.</strong>, Padhye, S. (2025).<br>
+<em>A Non-Interactive and Secure Dynamic Multi-Party FHE Scheme.</em><br>
+International Journal of Information Security.
+</li>
+
+<li>
+<strong>Upadhyay, R.R.</strong>, Padhye, S. (2024).<br>
+<em>Advancements in Fully Homomorphic Encryption over the Integers.</em><br>
+Surveys in Mathematics and its Applications.
+</li>
+</ul>
+</section>
+
+<!-- TALKS -->
+<section id="talks">
+<h2>Invited Talks & Panels</h2>
+<ul>
+<li>
+<strong>Industrial Expert Lecture</strong>, Department of Mathematics,
+VIT Vellore, September 2025.
+</li>
+<li>
+<strong>Panelist:</strong> PQC Transition Strategies,
+SETS – C-DAC – CCA India, July 2025.
+</li>
+<li>
+<strong>Invited Talk:</strong> Secure Computation – FHE and MPC,
+NIWC 2024, MNNIT Allahabad.
+</li>
+</ul>
+</section>
+
+<!-- WORKSHOPS -->
+<section id="workshops">
+<h2>Workshops & Schools</h2>
+<ul>
+<li>TPMPC 2025, IISc Bangalore</li>
+<li>CIMPA Post-Quantum Cryptography, Paris</li>
+<li>IESC Summer School in Cryptography, Corsica</li>
+<li>MTTS Mentor (2022, 2023)</li>
+</ul>
+</section>
+
+<!-- AWARDS -->
+<section id="awards">
+<h2>Awards & Grants</h2>
+<ul>
+<li>Best Paper Award, Human-2025</li>
+<li>PrivCrypt 2025 Travel Grant, Munich</li>
+<li>IACR Student Stipend, RWC 2025</li>
+<li>CIMPA Fellowship, Paris</li>
+<li>CSIR-UGC JRF & NET Qualified</li>
+</ul>
+</section>
+
+<footer style="text-align:center;">
+<p>© Dr. Rohitkumar R. Upadhyay</p>
 </footer>
 
 </body>
