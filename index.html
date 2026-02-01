@@ -5,36 +5,72 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dr. Rohitkumar R. Upadhyay</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-text {
+    max-width: 600px;
+}
+
+.subtitle {
+    margin-top: 6px;
+    font-size: 1rem;
+    color: #444;
+}
+
+.profile-img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.dropdown-nav {
+    margin-top: 15px;
+    display: inline-block;
+}
+</style>
+
 </head>
 
 <body>
 
-<header style="display:flex; align-items:center; justify-content:space-between; gap:30px; flex-wrap:wrap;">
-    <div>
+<header>
+    <div class="header-text">
         <h1>Dr. Rohitkumar R. Upadhyay</h1>
+
         <p class="subtitle">
             Cryptography Analyst, QNu Labs, Bangalore<br>
             Post-Quantum Cryptography · FHE · MPC · Zero-Knowledge Proofs
         </p>
 
-<nav class="dropdown-nav">
-    <button class="dropbtn">Menu ▾</button>
-    <div class="dropdown-content">
-        <a href="index.html">Home</a>
-        <a href="publications.html">Publications</a>
-        <a href="talks.html">Talks</a>
-        <a href="workshops.html">Workshops</a>
-        <a href="awards.html">Awards</a>
-        <a href="cv.html">CV</a>
-    </div>
-</nav>
-
+        <nav class="dropdown-nav">
+            <button class="dropbtn">Menu ▾</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="publications.html">Publications</a>
+                <a href="talks.html">Talks</a>
+                <a href="workshops.html">Workshops</a>
+                <a href="awards.html">Awards</a>
+                <a href="education.html">Education</a>
+            </div>
+        </nav>
     </div>
 
     <div>
         <img src="profile.png"
              alt="Dr. Rohitkumar R. Upadhyay"
-             style="width:180px; max-width:100%; height:auto; border-radius:8px; border:1px solid #ccc;">
+             class="profile-img">
     </div>
 </header>
 
