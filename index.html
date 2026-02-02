@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,49 +7,23 @@
 <title>Dr. Rohitkumar R. Upadhyay</title>
 <link rel="stylesheet" href="style.css">
 
-<style>
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-bottom: 40px;
-}
 
-.header-text {
-    max-width: 650px;
-}
-
-.profile-img {
-    width: 180px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-
-section {
-    max-width: 900px;
-    margin: 0 auto 40px auto;
-}
-
-section h2 {
-    border-bottom: 2px solid #e68a00;
-    padding-bottom: 5px;
-}
-
-ul li, ol li {
-    margin-bottom: 12px;
-    line-height: 1.6;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-</style>
 </head>
 
 <body>
+
+<nav class="navbar">
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#talks">Talks</a>
+        <a href="#awards">Awards</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
 <header>
     <div class="header-text">
         <h1>Dr. Rohitkumar R. Upadhyay</h1>
@@ -65,12 +40,12 @@ html {
 <section id="about">
     <h2>About Me</h2>
     <p>
-        I am a Cryptography Analyst at QNu Labs, Bangalore, working at the Center of Excellence in Post-Quantum Cryptography (PQC). 
-        I am a cryptographer specializing in secure computations, with a research focus on advancing privacy-preserving cryptographic protocols, particularly in the realm of post-quantum security. 
-        My work addresses the vulnerabilities of classical cryptographic methods in the face of emerging quantum threats.
+        I am a Cryptography Analyst at QNu Labs in Bangalore, where I am part of the Center of Excellence in Post-Quantum Cryptography (PQC). My work is focused on designing and analyzing cryptographic systems that will remain secure in a post-quantum world.
     </p>
-
-    <p><strong>Core Areas of Expertise:</strong></p>
+    <p>
+        Previously, I was a Senior Research Fellow at MNNIT Allahabad, a Laureate for the "Post-Quantum Algebraic Cryptography" program at the Institut Henri Poincaré in Paris, and an Assistant Professor of Mathematics at Vaze College, Mumbai. This diverse background in both academic research and teaching informs my current work on practical, next-generation cryptographic solutions.
+    </p>
+    <h3>My core areas of expertise include:</h3>
     <ul>
         <li>
             <strong>Fully Homomorphic Encryption (FHE):</strong> Enables computations directly on encrypted data without decryption, revolutionizing privacy-preserving data processing in domains such as cloud computing and secure analytics.
@@ -82,11 +57,6 @@ html {
             <strong>Zero-Knowledge Proofs (ZKPs):</strong> Allows one party to prove the validity of a statement without revealing any underlying data, critical for secure authentication and privacy in blockchain and identity systems.
         </li>
     </ul>
-
-    <p>
-        My research is driven by the goal of designing cryptographic systems that remain secure in a post-quantum world, 
-        ensuring long-term data confidentiality and integrity across digital platforms.
-    </p>
 </section>
 
 
@@ -96,19 +66,19 @@ html {
     <ul>
         <li>
             <strong>Ph.D. in Mathematics</strong> (2022 – 2025)<br>
-            Motilal Nehru National Institute of Technology Allahabad, India<br>
+            <a href="http://www.mnnit.ac.in" target="_blank">Motilal Nehru National Institute of Technology Allahabad, India</a><br>
             Thesis: <em>A Study of Secure Computation using Post-Quantum Cryptography</em><br>
-            Advisor: Dr. Sahadeo Padhye
+            Advisor: <a href="https://mnnit.ac.in/profile/preview.php?login=sahadeo" target="_blank">Dr. Sahadeo Padhye</a>
         </li>
 
         <li>
             <strong>M.Sc. in Mathematics</strong> (2017 – 2019)<br>
-            University of Mumbai, India
+            <a href="https://mu.ac.in" target="_blank">University of Mumbai, India</a>
         </li>
 
         <li>
             <strong>B.Sc. in Mathematics</strong> (2014 – 2017)<br>
-            NES Ratnam Degree College, Mumbai
+            <a href="http://ratnamcollege.edu.in" target="_blank">NES Ratnam Degree College, Mumbai</a>
         </li>
     </ul>
 </section>
@@ -223,7 +193,7 @@ Kumar, R., Dabral, A., <strong>Upadhyay, R.R.</strong><br>
 </a><br>
 <strong>3rd Doctoral Symposium on Human-Centered Computing (Human-2025).</strong>
 <em>Lecture Notes in Networks and Systems</em>, vol. 1691. Springer, Singapore.<br>
-<span style="color:#b22222;"><strong>Best Paper Award</strong></span>,
+<span class="best-paper-award"><strong>Best Paper Award</strong></span>,
 Scopus Indexed.
 </li>
 
@@ -287,20 +257,20 @@ Springer, Singapore.
 “Exploring the Role of Statistics in Cryptography with Post-Quantum Schemes,” and
 “Discrete Mathematical Approaches to Cryptography: A Post-Quantum Viewpoint,”
 delivered at the <strong>Department of Mathematics</strong>, School of Advanced Sciences,
-VIT Vellore, on <strong>10 September 2025</strong>.
+<a href="https://vit.ac.in/" target="_blank">VIT Vellore</a>, on <strong>10 September 2025</strong>.
 </li>
 
 <li>
 <strong>Panelist:</strong>
 “PQC Transition Strategies,” at the event <em>Future Proofing Through Quantum Resilience</em>,
-jointly organized by <strong>SETS</strong>, <strong>C-DAC</strong>, and the <strong>CCA India</strong>,
+jointly organized by <strong><a href="https://setsindia.in/" target="_blank">SETS</a></strong>, <strong><a href="https://www.cdac.in/" target="_blank">C-DAC</a></strong>, and the <strong><a href="https://cca.gov.in/" target="_blank">CCA India</a></strong>,
 held on <strong>18 July 2025</strong> at SETS, Chennai, India.
 </li>
 
 <li>
 <strong>Invited Talk:</strong>
 Introductory Summer School in Cryptography,
-<strong>IESC</strong>, Corsica, France.
+<strong><a href="https://www.iesc.fr/" target="_blank">IESC</a></strong>, Corsica, France.
 </li>
 
 <li>
@@ -314,7 +284,7 @@ Allahabad, India, on <strong>4 July 2024</strong>.
 <li>
 <strong>Invited Talk:</strong>
 “Secure Multi-Party Computation: A Gentle Introduction,”
-at the <strong>SparQ Series</strong>, organized by QNu Labs,
+at the <strong>SparQ Series</strong>, organized by <a href="https://www.qnulabs.com/" target="_blank">QNu Labs</a>,
 Bangalore, India, on <strong>20 May 2024</strong>.
 </li>
 
@@ -322,7 +292,7 @@ Bangalore, India, on <strong>20 May 2024</strong>.
 <strong>Invited Talk:</strong>
 “Secure Computations,” at the Faculty Development Program (FDP)
 titled <em>DigitalZenith: Elevating Security &amp; Nurturing Wellness</em>,
-organized by Pillai HOC College, Rasayani,
+organized by <a href="https://phcet.ac.in/" target="_blank">Pillai HOC College</a>, Rasayani,
 from <strong>21–27 February 2024</strong>.
 </li>
 
@@ -338,64 +308,64 @@ held from <strong>10–21 December 2023</strong> at Pondicherry University, Indi
 
 <!-- AWARDS -->
 <section id="awards">
-<h2>Awards & Grants</h2>
-<ul>
-<li>
-<strong>June 2025 – Financial Support for PrivCrypt 2025 from CIMPA, CRSI and BOSCH</strong><br>
-For presenting the paper
-<em>“Towards Privacy and Integrity: SNARK-Driven Verifiable FHE for Outsourced Computation”</em>
-at PrivCrypt 2025, a co-located workshop of ACNS 2025, held in Munich, Germany.
-</li>
+    <h2>Awards & Grants</h2>
+    <ul>
+        <li>
+            <strong>June 2025 – Financial Support for PrivCrypt 2025 from <a href="https://www.cimpa.info/" target="_blank">CIMPA</a>, <a href="https://www.crsind.in/" target="_blank">CRSI</a> and <a href="https://www.bosch.in/" target="_blank">BOSCH</a></strong><br>
+            For presenting the paper
+            <em>“Towards Privacy and Integrity: SNARK-Driven Verifiable FHE for Outsourced Computation”</em>
+            at PrivCrypt 2025, a co-located workshop of <a href="https://link.springer.com/conference/acns" target="_blank">ACNS 2025</a>, held in Munich, Germany.
+        </li>
 
-<li>
-<strong>March 2025 – Best Paper Award</strong><br>
-Awarded at the 3rd Doctoral Symposium on Human-Centered Computing (Human-2025)
-for the paper <em>“SoK: Digital Signatures from VOLEitH”</em>.
-</li>
+        <li>
+            <strong>March 2025 – Best Paper Award</strong><br>
+            Awarded at the 3rd Doctoral Symposium on Human-Centered Computing (Human-2025)
+            for the paper <em>“SoK: Digital Signatures from VOLEitH”</em>.
+        </li>
 
-<li>
-<strong>March 2025 – Student Stipend (IACR)</strong><br>
-Awarded by IACR to attend the Real World Crypto Symposium (RWC) 2025,
-Sofia, Bulgaria.
-</li>
+        <li>
+            <strong>March 2025 – Student Stipend (<a href="https://www.iacr.org/" target="_blank">IACR</a>)</strong><br>
+            Awarded by IACR to attend the <a href="https://rwc.iacr.org/" target="_blank">Real World Crypto Symposium (RWC) 2025</a>,
+            Sofia, Bulgaria.
+        </li>
 
-<li>
-<strong>March 2025 – Student Stipend</strong><br>
-To attend TPMPC 2025 at the Indian Institute of Science (IISc),
-Bangalore, India.
-</li>
+        <li>
+            <strong>March 2025 – Student Stipend</strong><br>
+            To attend <a href="https://www.tpmpc.org/" target="_blank">TPMPC 2025</a> at the <a href="https://www.iisc.ac.in/" target="_blank">Indian Institute of Science (IISc)</a>,
+            Bangalore, India.
+        </li>
 
-<li>
-<strong>September– December 2024 – CIMPA Fellowship</strong><br>
-For participation in the
-<em>“Post-Quantum Algebraic Cryptography”</em> program at the
-Institut Henri Poincaré (IHP), Paris, France.
-</li>
+        <li>
+            <strong>September– December 2024 – CIMPA Fellowship</strong><br>
+            For participation in the
+            <em>“Post-Quantum Algebraic Cryptography”</em> program at the
+            <a href="https://www.ihp.fr/" target="_blank">Institut Henri Poincaré (IHP)</a>, Paris, France.
+        </li>
 
-<li>
-<strong>December 2023 – CIMPA Financial Support</strong><br>
-For attending the CIMPA Research School on Post-Quantum Cryptography,
-Pondicherry University, India.
-</li>
+        <li>
+            <strong>December 2023 – CIMPA Financial Support</strong><br>
+            For attending the <a href="https://www.cimpa.info/" target="_blank">CIMPA</a> Research School on Post-Quantum Cryptography,
+            <a href="https://www.pondiuni.edu.in/" target="_blank">Pondicherry University</a>, India.
+        </li>
 
-<li>
-<strong>2022 – CSIR-UGC JRF and NET Qualification</strong><br>
-Council of Scientific and Industrial Research (CSIR), India.<br>
-Qualified for Junior Research Fellowship (JRF) and Lectureship (NET).
-</li>
+        <li>
+            <strong>2022 – <a href="https://www.csir.res.in/" target="_blank">CSIR</a>-<a href="https://www.ugc.gov.in/" target="_blank">UGC</a> JRF and NET Qualification</strong><br>
+            Council of Scientific and Industrial Research (CSIR), India.<br>
+            Qualified for Junior Research Fellowship (JRF) and Lectureship (NET).
+        </li>
 
-<li>
-<strong>2021, 2022 – GATE Qualified</strong><br>
-Graduate Aptitude Test in Engineering, conducted by the
-Ministry of Education (formerly MHRD), India.
-</li>
+        <li>
+            <strong>2021, 2022 – <a href="https://gate.iitb.ac.in/" target="_blank">GATE</a> Qualified</strong><br>
+            Graduate Aptitude Test in Engineering, conducted by the
+            Ministry of Education (formerly MHRD), India.
+        </li>
 
-<li>
-<strong>2017 – JAM Qualified</strong><br>
-Joint Admission Test for M.Sc., conducted by the
-Ministry of Education (formerly MHRD), India.
-</li>
-</ul>
+        <li>
+            <strong>2017 – <a href="https://jam.iitm.ac.in/" target="_blank">JAM</a> Qualified</strong><br>
+            Joint Admission Test for M.Sc., conducted by the
+            Ministry of Education (formerly MHRD), India.
+        </li>
+    </ul>
 </section>
 
  <!-- CONTACT -->
@@ -422,8 +392,17 @@ Scopus: <a href="https://www.scopus.com/authid/detail.uri?authorId=58956375400" 
 
 
 <!-- FOOTER -->
-<footer style="text-align:center; margin-bottom:40px;">
-<p>© Dr. Rohitkumar R. Upadhyay</p>
+<footer class="main-footer">
+    <div class="footer-content">
+        <p>© Dr. Rohitkumar R. Upadhyay</p>
+        <p class="footer-links">
+            <a href="https://scholar.google.com/citations?user=f6Hv8IwAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+            <a href="https://www.linkedin.com/in/math4rohit/" target="_blank">LinkedIn</a> |
+            <a href="https://www.researchgate.net/profile/Rohitkumar-Upadhyay" target="_blank">ResearchGate</a> |
+            <a href="https://orcid.org/0000-0001-9509-1459" target="_blank">ORCID</a> |
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=58956375400" target="_blank">Scopus</a>
+        </p>
+    </div>
 </footer>
 
 </body>
