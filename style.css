@@ -167,10 +167,6 @@ header h1 {
     color: #c97800;
 }
 
-.header-actions {
-    margin: 0.85rem 0 0;
-}
-
 .cv-button {
     display: inline-flex;
     align-items: center;
@@ -333,6 +329,10 @@ a:focus-visible {
     background-color: transparent;
 }
 
+.footer-cv {
+    margin: 0 0 1rem;
+}
+
 .footer-links {
     margin-top: 10px;
 }
@@ -379,10 +379,6 @@ a:focus-visible {
     }
 
     .header-email {
-        text-align: center;
-    }
-
-    .header-actions {
         text-align: center;
     }
 
