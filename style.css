@@ -87,11 +87,32 @@ header {
     min-width: 260px;
 }
 
+.header-name-row {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
 header h1 {
     font-family: 'Source Serif 4', Georgia, serif;
     font-size: 2rem;
-    margin: 0 0 0.5rem;
+    margin: 0;
     color: #1a1a1a;
+}
+
+.header-linkedin {
+    font-size: 1.65rem;
+    line-height: 1;
+    color: #0a66c2;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.header-linkedin:hover {
+    color: #004182;
+    text-decoration: none;
+    transform: scale(1.05);
 }
 
 .subtitle {
@@ -103,8 +124,70 @@ header h1 {
 .tagline {
     font-size: 0.95rem;
     color: #666;
-    margin: 0.5rem 0 0;
+    margin: 0.5rem 0 0.75rem;
     line-height: 1.5;
+}
+
+.header-profiles {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-bottom: 0.65rem;
+}
+
+.profile-link {
+    font-size: 1.35rem;
+    line-height: 1;
+    color: #555;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.profile-link:hover {
+    color: #e68a00;
+    text-decoration: none;
+    transform: scale(1.08);
+}
+
+.header-email {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.header-email .sep {
+    margin: 0 0.35rem;
+    color: #aaa;
+}
+
+.header-email a {
+    color: #555;
+}
+
+.header-email a:hover {
+    color: #c97800;
+}
+
+.header-actions {
+    margin: 0.85rem 0 0;
+}
+
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: #e68a00;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    transition: background-color 0.2s;
+}
+
+.cv-button:hover {
+    background-color: #d47a00;
+    color: #fff;
+    text-decoration: none;
 }
 
 .profile-img {
@@ -285,6 +368,22 @@ a:focus-visible {
         align-items: center;
         text-align: center;
         padding: 32px 0 28px;
+    }
+
+    .header-name-row {
+        justify-content: center;
+    }
+
+    .header-profiles {
+        justify-content: center;
+    }
+
+    .header-email {
+        text-align: center;
+    }
+
+    .header-actions {
+        text-align: center;
     }
 
     header h1 {
